@@ -1,0 +1,110 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8733595366004432581",
+      "lastPropertyId": "2:7834320988796545772",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:2555227711546459551",
+          "name": "id"
+        },
+        {
+          "id": "2:7834320988796545772",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4305884435536708548",
+      "lastPropertyId": "2:8738028587729210934",
+      "name": "Customer",
+      "properties": [
+        {
+          "id": "1:8879698940321431388",
+          "name": "id"
+        },
+        {
+          "id": "2:8738028587729210934",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:7501346311281164118",
+      "lastPropertyId": "3:8790734461680693311",
+      "name": "Order",
+      "properties": [
+        {
+          "id": "1:7649752043222400321",
+          "name": "id"
+        },
+        {
+          "id": "2:5022373337651492476",
+          "name": "name"
+        },
+        {
+          "id": "3:8790734461680693311",
+          "indexId": "1:6343927385266030143",
+          "name": "customerId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:3450258796704892552",
+      "lastPropertyId": "2:2590052234053598315",
+      "name": "Student",
+      "properties": [
+        {
+          "id": "1:1505954655138901154",
+          "name": "id"
+        },
+        {
+          "id": "2:2590052234053598315",
+          "name": "name"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:653427801879081227",
+          "name": "teachers"
+        }
+      ]
+    },
+    {
+      "id": "5:8499164071549758481",
+      "lastPropertyId": "2:7581982518935090669",
+      "name": "Teacher",
+      "properties": [
+        {
+          "id": "1:880603020127903993",
+          "name": "id"
+        },
+        {
+          "id": "2:7581982518935090669",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:8499164071549758481",
+  "lastIndexId": "1:6343927385266030143",
+  "lastRelationId": "2:8596517967244601769",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [
+    8596517967244601769
+  ],
+  "version": 1
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333"
+        android:alpha="0.24"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:text="简单基本操作"/>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333"
+        android:alpha="0.24"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:text="One-To-Many"/>
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333"
+        android:alpha="0.24"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:text="Many-To-Many"/>
+
+</LinearLayout>
